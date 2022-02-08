@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(9, 10, 10);
+}
+.card{
+    width: 30%; max-height: 10%; margin: auto;
+    display: flex; flex-direction: column;
+    overflow:auto;
+}
+.img{
+    height: 90%;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-self: flex-end; */
+}
+.read{
+width: 100%;
+align-self: flex-end;
+margin-top: auto;
+flex-direction: row;
+
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
